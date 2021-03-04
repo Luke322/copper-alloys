@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lct-ca",
+  "version": "${version}",
+
+  "name": "Copper Alloys",
+  "description": "",
+  "authors": [
+    "Luke322"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lct-ca/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lct.copperalloys.CopperAlloys"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
