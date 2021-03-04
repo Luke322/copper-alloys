@@ -9,20 +9,23 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItems {
-    public static final Item COFENIUM_BLEND = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item COFENIUM_ALLOY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item COFENIUM_PICKAXE = new ModPickaxe(new CoFeniumToolMaterial());
-    public static final Item COFENIUM_AXE = new ModAxe(new CoFeniumToolMaterial(), 6, -3.1f);
+public class ModItems
+{
+    public static final Item COFENIUM_BLEND;
+    public static final Item COFENIUM_ALLOY;
+    public static final Item COFENIUM_PICKAXE;
+    public static final Item COFENIUM_AXE;
 
-    public static void registerItem(Item item, String path){
-        Registry.register(Registry.ITEM, new Identifier(CopperAlloys.MOD_ID, path), item);
+    public static Item register(String path, Item item)
+    {
+        return Registry.register(Registry.ITEM, new Identifier(CopperAlloys.MOD_ID, path), item);
     }
 
-    public static void registerItems () {
-        registerItem(COFENIUM_BLEND, "cofenium_blend");
-        registerItem(COFENIUM_ALLOY, "cofenium_alloy");
-        registerItem(COFENIUM_PICKAXE, "cofenium_pickaxe");
-        registerItem(COFENIUM_AXE, "cofenium_axe");
+    static
+    {
+        COFENIUM_BLEND = register("cofenium_blend", new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
+        COFENIUM_ALLOY = register("cofenium_alloy", new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
+        COFENIUM_PICKAXE = register("cofenium_pickaxe", new ModPickaxe(new CoFeniumToolMaterial()));
+        COFENIUM_AXE = register("cofenium_axe", new ModAxe(new CoFeniumToolMaterial(), 6, -3.1f));
     }
 }
