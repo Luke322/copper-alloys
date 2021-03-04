@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Copper alloys
 
-## Setup
+Minecraft fabric mod that adds alloys for copper with iron, gold and netherite. More information will be added later.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Installation
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Download the mod from the release section.
