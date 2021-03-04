@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " /",
+    " /"
+  ],
+  "key": {
+    "#": {
+      "item": "copperalloys:cofenium_alloy"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "copperalloys:cofenium_hoe"
+  }
+}
