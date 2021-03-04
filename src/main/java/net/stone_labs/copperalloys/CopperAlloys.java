@@ -1,6 +1,7 @@
 package net.stone_labs.copperalloys;
 
 import net.fabricmc.api.ModInitializer;
+import net.stone_labs.copperalloys.registry.ModItems;
 
 public class CopperAlloys implements ModInitializer
 {
@@ -9,5 +10,6 @@ public class CopperAlloys implements ModInitializer
     @Override
     public void onInitialize()
     {
+        ModItems.registerItems();
     }
 }

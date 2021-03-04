@@ -11,17 +11,17 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems
 {
-    public static final Item COFENIUM_BLEND;
-    public static final Item COFENIUM_ALLOY;
-    public static final Item COFENIUM_PICKAXE;
-    public static final Item COFENIUM_AXE;
+    public static Item COFENIUM_BLEND;
+    public static Item COFENIUM_ALLOY;
+    public static Item COFENIUM_PICKAXE;
+    public static Item COFENIUM_AXE;
 
     public static Item register(String path, Item item)
     {
         return Registry.register(Registry.ITEM, new Identifier(CopperAlloys.MOD_ID, path), item);
     }
 
-    static
+    public static void registerItems()
     {
         COFENIUM_BLEND = register("cofenium_blend", new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         COFENIUM_ALLOY = register("cofenium_alloy", new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
