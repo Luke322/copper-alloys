@@ -1,9 +1,9 @@
-package com.lct.copperalloys.registry;
+package net.stone_labs.copperalloys.registry;
 
-import com.lct.copperalloys.CopperAlloys;
-import com.lct.copperalloys.materials.CoFeniumToolMaterial;
-import com.lct.copperalloys.tools.ModAxe;
-import com.lct.copperalloys.tools.ModPickaxe;
+import net.stone_labs.copperalloys.CopperAlloys;
+import net.stone_labs.copperalloys.materials.CoFeniumToolMaterial;
+import net.stone_labs.copperalloys.tools.ModAxe;
+import net.stone_labs.copperalloys.tools.ModPickaxe;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lct-ca:items/cofenium_alloy"
+    "layer0": "copperalloys:items/cofenium_pickaxe"
   }
 }

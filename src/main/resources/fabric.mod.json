@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "lct-ca",
+  "id": "copperalloys",
   "version": "${version}",
 
   "name": "Copper Alloys",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/lct-ca/icon.png",
+  "icon": "assets/copperalloys/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.lct.copperalloys.CopperAlloys"
+      "net.stone_labs.copperalloys.CopperAlloys"
     ]
   },
   "mixins": [

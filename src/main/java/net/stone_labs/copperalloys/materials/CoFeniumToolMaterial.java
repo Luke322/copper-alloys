@@ -1,6 +1,6 @@
-package com.lct.copperalloys.materials;
+package net.stone_labs.copperalloys.materials;
 
-import com.lct.copperalloys.registry.ModItems;
+import net.stone_labs.copperalloys.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
