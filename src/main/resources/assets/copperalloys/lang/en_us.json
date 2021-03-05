@@ -13,5 +13,13 @@
   "advancements.copperalloys.cofenium.cofenium_alloy": "The First of Three",
   "advancements.copperalloys.cofenium.cofenium_alloy.description": "Smelt CoFenium Blend into CoFenium Alloy",
   "advancements.copperalloys.cofenium.cofenium_pickaxe": "Next Gen Pickaxe",
-  "advancements.copperalloys.cofenium.cofenium_pickaxe.description": "Craft a CoFenium Pickaxe"
+  "advancements.copperalloys.cofenium.cofenium_pickaxe.description": "Craft a CoFenium Pickaxe",
+
+  "item.copperalloys.coaunium_blend": "CoAunium Blend",
+  "item.copperalloys.coaunium_alloy": "CoAunium Alloy",
+  "item.copperalloys.coaunium_sword": "CoAunium Sword",
+  "item.copperalloys.coaunium_shovel": "CoAunium Shovel",
+  "item.copperalloys.coaunium_pickaxe": "CoAunium Pickaxe",
+  "item.copperalloys.coaunium_axe": "CoAunium Axe",
+  "item.copperalloys.coaunium_hoe": "CoAunium Hoe"
 }

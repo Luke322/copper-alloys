@@ -1,27 +1,27 @@
 package net.stone_labs.copperalloys.materials;
 
-import net.stone_labs.copperalloys.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.stone_labs.copperalloys.registry.ModItems;
 
-public class CoFeniumToolMaterial implements ToolMaterial
+public class CoAuniumToolMaterial implements ToolMaterial
 {
     @Override
     public int getDurability()
     {
-        return 700;
+        return 500;
     }
 
     @Override
     public float getMiningSpeedMultiplier()
     {
-        return 7;
+        return 10;
     }
 
     @Override
     public float getAttackDamage()
     {
-        return 2;
+        return 2.5f;
     }
 
     @Override
@@ -33,12 +33,12 @@ public class CoFeniumToolMaterial implements ToolMaterial
     @Override
     public int getEnchantability()
     {
-        return 15;
+        return 18;
     }
 
     @Override
     public Ingredient getRepairIngredient()
     {
-        return Ingredient.ofItems(ModItems.COFENIUM_ALLOY);
+        return Ingredient.ofItems(ModItems.COAUNIUM_ALLOY);
     }
 }

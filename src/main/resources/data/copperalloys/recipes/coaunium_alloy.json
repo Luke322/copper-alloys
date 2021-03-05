@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "copperalloys:coaunium_blend"
+  },
+  "result": "copperalloys:coaunium_alloy",
+  "experience": 1.0,
+  "cookingtime": 200
+}
