@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.copperalloys.cofenium.cofenium_pickaxe",
+            "color": "green",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "translate": "advancements.copperalloys.cofenium.cofenium_pickaxe.description",
+            "color": "green"
+        },
+        "icon": {
+            "item": "copperalloys:cofenium_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_cofenium_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "copperalloys:cofenium_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cofenium_pickaxe"
+        ]
+    ],
+    "parent": "copperalloys:cofenium/cofenium_alloy"
+}

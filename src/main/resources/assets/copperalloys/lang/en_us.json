@@ -5,5 +5,13 @@
   "item.copperalloys.cofenium_shovel": "CoFenium Shovel",
   "item.copperalloys.cofenium_pickaxe": "CoFenium Pickaxe",
   "item.copperalloys.cofenium_axe": "CoFenium Axe",
-  "item.copperalloys.cofenium_hoe": "CoFenium Hoe"
+  "item.copperalloys.cofenium_hoe": "CoFenium Hoe",
+  "advancements.copperalloys.root": "Copper Alloys",
+  "advancements.copperalloys.root.description": "Mixing Metals",
+  "advancements.copperalloys.cofenium.cofenium_blend":  "Blending the Lines",
+  "advancements.copperalloys.cofenium.cofenium_blend.description":  "Mixing Copper and Iron",
+  "advancements.copperalloys.cofenium.cofenium_alloy": "The First of Three",
+  "advancements.copperalloys.cofenium.cofenium_alloy.description": "Smelt CoFenium Blend into CoFenium Alloy",
+  "advancements.copperalloys.cofenium.cofenium_pickaxe": "Next Gen Pickaxe",
+  "advancements.copperalloys.cofenium.cofenium_pickaxe.description": "Craft a CoFenium Pickaxe"
 }

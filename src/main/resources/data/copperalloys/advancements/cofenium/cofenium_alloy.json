@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.copperalloys.cofenium.cofenium_alloy",
+            "color": "green"
+        },
+        "description": {
+            "translate": "advancements.copperalloys.cofenium.cofenium_alloy.description",
+            "color": "green",
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "copperalloys:cofenium_alloy"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "smelt_cofenium_alloy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "copperalloys:cofenium_alloy"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "smelt_cofenium_alloy"
+        ]
+    ],
+    "parent": "copperalloys:cofenium/cofenium_blend"
+}

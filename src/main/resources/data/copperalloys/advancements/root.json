@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.copperalloys.root",
+            "color": "green",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "translate": "advancements.copperalloys.root.description",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:copper_ingot"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/copper_block.png"
+    },
+    "criteria": {
+        "has_copper_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_copper_ingot"
+        ]
+    ]
+}
