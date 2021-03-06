@@ -21,5 +21,13 @@
   "item.copperalloys.coaunium_shovel": "CoAunium Shovel",
   "item.copperalloys.coaunium_pickaxe": "CoAunium Pickaxe",
   "item.copperalloys.coaunium_axe": "CoAunium Axe",
-  "item.copperalloys.coaunium_hoe": "CoAunium Hoe"
+  "item.copperalloys.coaunium_hoe": "CoAunium Hoe",
+
+  "item.copperalloys.conetnium_blend": "CoNetnium Blend",
+  "item.copperalloys.conetnium_alloy": "CoNetnium Alloy",
+  "item.copperalloys.conetnium_sword": "CoNetnium Sword",
+  "item.copperalloys.conetnium_shovel": "CoNetnium Shovel",
+  "item.copperalloys.conetnium_pickaxe": "CoNetnium Pickaxe",
+  "item.copperalloys.conetnium_axe": "CoNetnium Axe",
+  "item.copperalloys.conetnium_hoe": "CoNetnium Hoe"
 }

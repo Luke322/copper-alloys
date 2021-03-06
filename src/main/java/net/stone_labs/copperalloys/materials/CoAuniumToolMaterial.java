@@ -9,7 +9,7 @@ public class CoAuniumToolMaterial implements ToolMaterial
     @Override
     public int getDurability()
     {
-        return 500;
+        return 200;
     }
 
     @Override
